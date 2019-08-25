@@ -1,0 +1,35 @@
+body {
+  background-color: #696969;
+
+}
+
+#header {
+  background-color: #696969;
+}
+
+.photos div {
+  background-color: #696969;
+}
+
+.photos p {
+  color: white;
+}
+
+.photos h1 {
+  color: white;
+}
+
+#header a:hover {
+  color: white;
+
+}
+
+.slider.round {
+  border: 1px solid white;
+  border-radius: 34px;
+}
+
+.online-switch--text {
+    color: white;
+
+}

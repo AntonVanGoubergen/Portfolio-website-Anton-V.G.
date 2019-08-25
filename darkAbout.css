@@ -1,0 +1,39 @@
+body {
+  background-color: #696969;
+
+}
+
+#header {
+  background-color: #696969;
+}
+
+
+.slider.round {
+  border: 1px solid white;
+  border-radius: 34px;
+}
+
+.online-switch--text {
+    color: white;
+
+}
+
+.about p {
+color: #DCDCDC;
+}
+
+.about h2 {
+color: #DCDCDC;
+}
+
+footer {
+  color: #DCDCDC;
+}
+
+footer a {
+  color: #DCDCDC;
+}
+
+.link a:hover {
+  color: white;
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Hier komt je titel</title>
+		<link rel="stylesheet" type="text/css" href="reset_plus.css">
+		<link rel="stylesheet" type="text/css" href="contact.css">
+		<link rel="stylesheet" type="text/css" id="darkmodecss" href="light.css">
+		<script src="scriptContact.js" defer></script>
+		<link href="https://fonts.googleapis.com/css?family=Patua+One|Roboto:400,700&display=swap" rel="stylesheet">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<main>
+
+		<header id="header">
+			<img src="noun_Camera_1104553.png" alt="Camera" height="50" width="50">
+			<nav>
+				<a href="index.html">PORTFOLIO</a>
+				<a href="about.html">ABOUT</a>
+				<a href="contact.html">CONTACT</a>
+			</nav>
+
+			<div class="online-switch">
+													<label class="online-switch--text">invert</label>
+													<label class="switch">
+													<input type="checkbox">
+													<span class="slider round"
+															onclick="toggleDarkMode()"></span>
+													</label>
+											</div>
+		</header>
+
+
+		<section class="contact">
+
+			<div class="contactpage">
+
+			<h2> contact </h2>
+
+			<p>
+				Heeft u vragen of wilt u meer informatie kan u het formulier hieronder invullen.
+			</p>
+
+			</div>
+
+			<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">Voornaam</label>
+    <input type="text" id="fname" name="firstname" placeholder="">
+
+    <label for="lname">Achternaam</label>
+    <input type="text" id="lname" name="lastname" placeholder="">
+
+    <label for="subject">Uw vraag</label>
+    <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+				</section>
+
+		</section>
+
+	</main>
+
+		<footer>
+			<p> This website is made by Anton Van Goubergen for the OLOD informatietechnologie 2. </p>
+			<div class="links">
+				<a href="#">tags</a>
+				<a href="#">more</a>
+				<a href="#">partners</a>
+			</div>
+
+	</body>
+</html>
